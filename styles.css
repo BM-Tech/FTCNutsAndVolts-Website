@@ -13,3 +13,8 @@
 .centered{
     text-align: center;
 }
+
+.socials a{
+    font-size: larger;
+    margin-right: 10px;
+}
