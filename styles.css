@@ -1,7 +1,10 @@
 .hero{
-    background: linear-gradient( rgba(235, 58, 58, 0.5), rgba(0, 0, 0, 0.5) ), url("images/gradient.jpg");
+    /* background: linear-gradient( rgba(235, 58, 58, 0.5), rgba(0, 0, 0, 0.5) ), url("images/gradient.jpg"); */
+    background-color: rgb(74, 74, 231);
     background-position: fixed;
     background-size: 100% 100%;
+    align-items: center;
+    text-align: center;
 }
 
 .bioimg{
@@ -12,7 +15,8 @@
 }
 
 .centerimage{
-    width: 500px
+    width: 500px;
+    border-radius: 5px;
 }
 
 .centered{
@@ -29,7 +33,12 @@
 }
 
 @media screen and (max-width: 600px) {
-    .bios nav ul{
-        width: 100vw;
+    .bioimg{
+        min-width: 100px;
+        max-width: 100px;
+        margin-right: 0px;
+    }
+    .centerimage{
+        width: 100%;
     }
 }
