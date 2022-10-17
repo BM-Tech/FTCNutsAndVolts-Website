@@ -23,3 +23,13 @@
     font-size: larger;
     margin-right: 10px;
 }
+
+.lowmargin{
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .bios nav ul{
+        width: 100vw;
+    }
+}
